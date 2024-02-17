@@ -6,7 +6,7 @@ Fastcampus Dart&Flutter App 개발 Part 6, Flutter 실무 개발
 ## Getting Started
 
 - 강의에서는 Android Studio 를 사용하나 난 VS Code 로 진행
-
+- Android emulator 사용
 
 ## History
 - Ch03 - 대략적인 구조 잡아보기

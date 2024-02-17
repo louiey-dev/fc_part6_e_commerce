@@ -1,6 +1,8 @@
 import 'package:fc_part6_e_commerce/presentation/routes/routes.dart';
 import 'package:flutter/material.dart';
 
+import 'core/theme/theme_data.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -34,6 +36,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return MaterialApp.router(
       routerConfig: router,
+      theme: CustomThemeData.themeData,
     );
   }
 }
